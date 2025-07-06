@@ -21,22 +21,26 @@ We used a **Long Short-Term Memory (LSTM)** model, ideal for time-series forecas
    ```bash
    git clone https://github.com/Santhosh944/bike-demand-prediction.git
    cd bike-demand-prediction
+
 2. Install dependencies:
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Train the model:
+
+4. Train the model:
 bash
 Copy
 Edit
 python train_lstm_model.py
-4. Run the Flask app:
+
+5. Run the Flask app:
 bash
 Copy
 Edit
 python app.py
-5.Visit: http://127.0.0.1:5000/
+
+6. Visit: http://127.0.0.1:5000/
 
 Results
 The model achieved promising accuracy with low MAE and RMSE. Visualizations showed close alignment between actual and predicted bike demand.
